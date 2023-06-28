@@ -1,3 +1,4 @@
+import math
 # This is the first comment
 
 # Hola Mundo: 
@@ -21,4 +22,5 @@ print(type(10))
 print(type(3.14))
 print(type('Sergio'))
 
-print(type('e'))
+print(math.sqrt((2 - 3)**2))
+print(math.sqrt((10 - 8)**2))
