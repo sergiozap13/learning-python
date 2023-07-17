@@ -237,14 +237,15 @@ countries = [
 ]
 
 tam = len(countries)
+# Mostrar el pais que está justamente en medio
 if(tam % 2 != 0):
     print(countries[int(tam/2)])
     print(countries[int((tam/2) + 1)])
-
+# Dividir la lista en 2
 countries_half_1 = countries[0:int(tam/2)]
 countries_half_2 = countries[int(tam/2):tam]
 print(countries_half_1)
-
+#Separar los paises por escandinavos
 paises = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 paises_escandinavos = paises[3:len(paises)]
 print(paises_escandinavos)
